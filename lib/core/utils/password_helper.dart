@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'package:crypto/crypto.dart';
 
-/// Classe utilitaire pour le hachage des mots de passe
+/// Classe utilitaire pour le hachage sécurisé des mots de passe.
+/// Utilise SHA-256 avec un salt unique pour chaque mot de passe,
+/// ce qui protège contre les attaques par rainbow table.
 class PasswordHelper {
   /// Hash un mot de passe avec SHA-256
   static String hashPassword(String password) {
