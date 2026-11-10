@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
-/// Thème de l'application EduPalestine
+/// Thème de l'application EduPalestine.
+///
+/// Utilise les couleurs du drapeau palestinien :
+/// - Vert  : #2E7D32 (couleur primaire)
+/// - Rouge : #E53935 (couleur secondaire)
+///
+/// Basé sur Material Design 3.
 class AppTheme {
   // Couleurs principales
   static const Color primaryColor = Color(0xFF2E7D32); // Vert Palestine
