@@ -30,6 +30,9 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'dart:io' show Platform;
 
+/// Point d'entrée principal de l'application EduPalestine.
+/// Initialise SQLite FFI pour les plateformes desktop,
+/// configure la localisation française, et seed la base de données.
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -65,6 +68,8 @@ void main() async {
   runApp(const EduPalestineApp());
 }
 
+/// Widget racine de l'application.
+/// Gère la détection de plateforme web et configure les providers.
 class EduPalestineApp extends StatelessWidget {
   const EduPalestineApp({super.key});
 
