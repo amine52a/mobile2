@@ -3,6 +3,8 @@ class AppConstants {
   // App Info
   static const String appName = 'EduPalestine';
   static const String appVersion = '1.0.0';
+  static const String appAuthor = 'Amine Abdellah';
+  static const String appDescription = 'Application Flutter d\'apprentissage et de mentorat';
   
   // Database
   static const String databaseName = 'edu_palestine.db';
