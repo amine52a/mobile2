@@ -2,59 +2,78 @@
 
 ## 📱 Description
 
-EduPalestine est une application mobile éducative complète développée avec Flutter et SQLite. Elle offre un système d'apprentissage, de mentorat et de gestion de stages pour les étudiants palestiniens.
+EduPalestine est une application mobile éducative complète développée avec Flutter et SQLite. Elle offre un système d'apprentissage, de mentorat et de gestion de stages pour les étudiants.
 
-## 👥 Équipe de Développement
+## 👨‍💻 Développeur
 
-- **Chaabani Illyes** - Module Authentification
-- **Labaoui Rawen** - Module Cours & Contenus
-- **Zarrouk Med Aziz** - Module Quiz & Évaluations
-- **Tlili Yossra** - Module Communauté & Mentorat
-- **Yasmine Mechmech** - Module Offres de Stage
+**Amine Abdellah** — Application complète (tous les modules)
 
-## 🚀 Fonctionnalités Actuelles (Module Authentification)
+## ✅ Fonctionnalités
 
-### ✅ Module 1 : Authentification & Gestion des Utilisateurs
+### Module 1 : Authentification & Gestion des Utilisateurs
+- Inscription utilisateur ✅
+- Mot de passe oublié ✅
+- Profil utilisateur ✅
+- Changement de mot de passe ✅
+- CAPTCHA anti-bot ✅
 
-#### F1.1 - Authentification et Gestion des Comptes
-- **F1.1.1** - Inscription utilisateur ✅
-- **F1.1.2** - Mot de passe oublié ✅
-- **F1.1.3** - Profil utilisateur ✅
-- **F1.1.4** - Changement de mot de passe ✅
+### Module 2 : Cours & Contenus Pédagogiques
+- Catalogue de 8 cours ✅
+- Chapitres et ressources ✅
+- Lecteur vidéo (Chewie) ✅
+- Visionneuse PDF (Syncfusion) ✅
+- Suivi de progression ✅
+
+### Module 3 : Quiz & Évaluations
+- 4 types de questions ✅
+- Passage de quiz ✅
+- Scores et tentatives ✅
+
+### Module 4 : Communauté & Mentorat
+- Forum de discussion ✅
+- Messagerie directe ✅
+- Système de mentorat ✅
+
+### Module 5 : Offres de Stage
+- Publication d'offres ✅
+- Candidatures ✅
+- Suivi des statuts ✅
 
 ## 🛠️ Technologies
 
-- **Flutter** 3.9.2+
-- **SQLite** (sqflite)
+- **Flutter** 3.47.9
+- **SQLite** (sqflite + sqflite_common_ffi)
 - **Provider** (State Management)
-- **Crypto** (Sécurité)
+- **Crypto** SHA-256 (Sécurité)
+- **Visual Studio Build Tools 2022** (Windows Desktop)
 
 ## 🔧 Installation
 
 ```bash
 # Cloner le repository
-git clone https://github.com/RawenLb/ProjetMobile.git
+git clone https://github.com/amine52a/mobile2.git
 
 # Installer les dépendances
 flutter pub get
 
-# Lancer l'application
-flutter run
+# Lancer sur Windows Desktop
+flutter run -d windows
 ```
 
-## 📝 Utilisation
+## 🧪 Comptes de test
 
-1. **Inscription**: Créez un compte avec email, nom, prénom et rôle
-2. **Connexion**: Connectez-vous avec vos identifiants
-3. **Profil**: Modifiez vos informations personnelles
-4. **Sécurité**: Changez votre mot de passe à tout moment
+| Rôle | Email | Mot de passe |
+|------|-------|-------------|
+| Admin | admin@edupalestine.com | admin123 |
+| Étudiant | ilyes@test.com | password123 |
 
 ## 🔐 Sécurité
 
-- Mots de passe hachés (SHA-256)
+- Mots de passe hachés (SHA-256 + salt)
+- Stockage sécurisé des sessions (flutter_secure_storage)
 - Validation stricte des formulaires
-- Stockage sécurisé des sessions
+- CAPTCHA mathématique anti-bot
 
 ---
 
-**Version**: 1.0.0 | **Date**: Octobre 2025
+**Version**: 1.0.0 | **Date**: Novembre 2026 | **Développeur**: Amine Abdellah
