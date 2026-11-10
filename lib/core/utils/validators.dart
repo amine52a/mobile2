@@ -1,7 +1,9 @@
 import 'package:email_validator/email_validator.dart';
 import '../constants/app_constants.dart';
 
-/// Classe utilitaire pour la validation des formulaires
+/// Classe utilitaire pour la validation des formulaires.
+/// Fournit des méthodes statiques pour valider email, mot de passe,
+/// noms d'utilisateur et autres champs de saisie.
 class Validators {
   /// Valide un email
   static String? validateEmail(String? value) {
