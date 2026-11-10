@@ -179,7 +179,7 @@ class _SplashScreenState extends State<SplashScreen> {
     await authProvider.initialize();
 
     // Attendre un peu pour l'effet splash screen
-    await Future.delayed(const Duration(seconds: 2));
+    await Future.delayed(const Duration(milliseconds: 1500));
 
     if (!mounted) return;
 
