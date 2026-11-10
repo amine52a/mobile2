@@ -1,5 +1,5 @@
 name: edu_palestine
-description: "Application Mobile d'Apprentissage et de Mentorat - EduPalestine"
+description: "EduPalestine - Application Flutter complète d'apprentissage, de mentorat et de gestion de stages. Inclut authentification sécurisée, cours interactifs, quiz, forum communautaire et offres de stage."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -43,12 +43,9 @@ dependencies:
   # HTTP for downloading resources
   http: ^1.1.2
 
-  # Video Player - Using ^ for flexibility
+  # Video Player
   video_player: ^2.8.1
   chewie: ^1.7.4
-  # youtube_player_flutter: ^9.1.1 - Removed due to Windows compatibility issues
-  
-  # Note: YouTube videos removed for Windows compatibility
 
   # PDF Viewer - Using ^ to allow patch updates within v27
   syncfusion_flutter_pdfviewer: ^27.2.5
